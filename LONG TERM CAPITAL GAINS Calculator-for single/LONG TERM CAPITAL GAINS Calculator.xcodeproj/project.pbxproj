@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3422EE4C22E3257100F1BA0E /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422EE4B22E3257100F1BA0E /* MainTableViewController.swift */; };
+		3422EE4E22E32FFC00F1BA0E /* AddManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422EE4D22E32FFC00F1BA0E /* AddManager.swift */; };
+		3431ADB022DF2EA600EDADC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3431ADAF22DF2EA600EDADC8 /* AppDelegate.swift */; };
+		3431ADB222DF2EA600EDADC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3431ADB122DF2EA600EDADC8 /* ViewController.swift */; };
+		3431ADB522DF2EA600EDADC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3431ADB322DF2EA600EDADC8 /* Main.storyboard */; };
+		3431ADB722DF2EA900EDADC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3431ADB622DF2EA900EDADC8 /* Assets.xcassets */; };
+		3431ADBA22DF2EA900EDADC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3431ADB822DF2EA900EDADC8 /* LaunchScreen.storyboard */; };
+		3431ADC422DF373600EDADC8 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3431ADC222DF373600EDADC8 /* HeaderTableViewCell.swift */; };
+		3431ADC522DF373600EDADC8 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3431ADC322DF373600EDADC8 /* HeaderTableViewCell.xib */; };
+		3448578422E7249F00E14A85 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448578322E7249F00E14A85 /* Calculations.swift */; };
+		344FB36822EACACC00BE937C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344FB36722EACACC00BE937C /* ResultViewController.swift */; };
+		344FB36A22EAD32000BE937C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344FB36922EAD32000BE937C /* MainViewController.swift */; };
+		346D78C822E5DA6700EAB9BB /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D78C722E5DA6700EAB9BB /* ListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3422EE4B22E3257100F1BA0E /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		3422EE4D22E32FFC00F1BA0E /* AddManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddManager.swift; sourceTree = "<group>"; };
+		3431ADAC22DF2EA600EDADC8 /* LTCG Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LTCG Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3431ADAF22DF2EA600EDADC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3431ADB122DF2EA600EDADC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3431ADB422DF2EA600EDADC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3431ADB622DF2EA900EDADC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3431ADB922DF2EA900EDADC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3431ADBB22DF2EA900EDADC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3431ADC222DF373600EDADC8 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		3431ADC322DF373600EDADC8 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		3448578222E6DEE800E14A85 /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+		3448578322E7249F00E14A85 /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		344FB36722EACACC00BE937C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		344FB36922EAD32000BE937C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		346D78C722E5DA6700EAB9BB /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3431ADA922DF2EA600EDADC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3422EE4822E3251700F1BA0E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3422EE4B22E3257100F1BA0E /* MainTableViewController.swift */,
+				3422EE4D22E32FFC00F1BA0E /* AddManager.swift */,
+				3448578322E7249F00E14A85 /* Calculations.swift */,
+				344FB36722EACACC00BE937C /* ResultViewController.swift */,
+				344FB36922EAD32000BE937C /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3431ADA322DF2EA600EDADC8 = {
+			isa = PBXGroup;
+			children = (
+				3431ADAE22DF2EA600EDADC8 /* LONG TERM CAPITAL GAINS Calculator */,
+				3431ADAD22DF2EA600EDADC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3431ADAD22DF2EA600EDADC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3431ADAC22DF2EA600EDADC8 /* LTCG Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3431ADAE22DF2EA600EDADC8 /* LONG TERM CAPITAL GAINS Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				3422EE4822E3251700F1BA0E /* Controllers */,
+				3431ADC122DF370D00EDADC8 /* Cells */,
+				3431ADAF22DF2EA600EDADC8 /* AppDelegate.swift */,
+				3431ADB122DF2EA600EDADC8 /* ViewController.swift */,
+				3431ADB322DF2EA600EDADC8 /* Main.storyboard */,
+				3431ADB622DF2EA900EDADC8 /* Assets.xcassets */,
+				3431ADB822DF2EA900EDADC8 /* LaunchScreen.storyboard */,
+				3431ADBB22DF2EA900EDADC8 /* Info.plist */,
+				3448578222E6DEE800E14A85 /* Script.sh */,
+			);
+			path = "LONG TERM CAPITAL GAINS Calculator";
+			sourceTree = "<group>";
+		};
+		3431ADC122DF370D00EDADC8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3431ADC222DF373600EDADC8 /* HeaderTableViewCell.swift */,
+				3431ADC322DF373600EDADC8 /* HeaderTableViewCell.xib */,
+				346D78C722E5DA6700EAB9BB /* ListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3431ADAB22DF2EA600EDADC8 /* LONG TERM CAPITAL GAINS Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3431ADBE22DF2EA900EDADC8 /* Build configuration list for PBXNativeTarget "LONG TERM CAPITAL GAINS Calculator" */;
+			buildPhases = (
+				3431ADA822DF2EA600EDADC8 /* Sources */,
+				3431ADA922DF2EA600EDADC8 /* Frameworks */,
+				3431ADAA22DF2EA600EDADC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LONG TERM CAPITAL GAINS Calculator";
+			productName = "LONG TERM CAPITAL GAINS Calculator";
+			productReference = 3431ADAC22DF2EA600EDADC8 /* LTCG Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3431ADA422DF2EA600EDADC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = BAPS;
+				TargetAttributes = {
+					3431ADAB22DF2EA600EDADC8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3431ADA722DF2EA600EDADC8 /* Build configuration list for PBXProject "LONG TERM CAPITAL GAINS Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3431ADA322DF2EA600EDADC8;
+			productRefGroup = 3431ADAD22DF2EA600EDADC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3431ADAB22DF2EA600EDADC8 /* LONG TERM CAPITAL GAINS Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3431ADAA22DF2EA600EDADC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3431ADC522DF373600EDADC8 /* HeaderTableViewCell.xib in Resources */,
+				3431ADBA22DF2EA900EDADC8 /* LaunchScreen.storyboard in Resources */,
+				3431ADB722DF2EA900EDADC8 /* Assets.xcassets in Resources */,
+				3431ADB522DF2EA600EDADC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3431ADA822DF2EA600EDADC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3422EE4C22E3257100F1BA0E /* MainTableViewController.swift in Sources */,
+				3431ADB222DF2EA600EDADC8 /* ViewController.swift in Sources */,
+				3422EE4E22E32FFC00F1BA0E /* AddManager.swift in Sources */,
+				344FB36822EACACC00BE937C /* ResultViewController.swift in Sources */,
+				346D78C822E5DA6700EAB9BB /* ListCell.swift in Sources */,
+				3431ADC422DF373600EDADC8 /* HeaderTableViewCell.swift in Sources */,
+				344FB36A22EAD32000BE937C /* MainViewController.swift in Sources */,
+				3448578422E7249F00E14A85 /* Calculations.swift in Sources */,
+				3431ADB022DF2EA600EDADC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3431ADB322DF2EA600EDADC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3431ADB422DF2EA600EDADC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3431ADB822DF2EA900EDADC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3431ADB922DF2EA900EDADC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3431ADBC22DF2EA900EDADC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3431ADBD22DF2EA900EDADC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3431ADBF22DF2EA900EDADC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNUG5L582;
+				INFOPLIST_FILE = "LONG TERM CAPITAL GAINS Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.capitaltax.calc;
+				PRODUCT_NAME = "LTCG Calculator";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3431ADC022DF2EA900EDADC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JNUG5L582;
+				INFOPLIST_FILE = "LONG TERM CAPITAL GAINS Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.capitaltax.calc;
+				PRODUCT_NAME = "LTCG Calculator";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3431ADA722DF2EA600EDADC8 /* Build configuration list for PBXProject "LONG TERM CAPITAL GAINS Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3431ADBC22DF2EA900EDADC8 /* Debug */,
+				3431ADBD22DF2EA900EDADC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3431ADBE22DF2EA900EDADC8 /* Build configuration list for PBXNativeTarget "LONG TERM CAPITAL GAINS Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3431ADBF22DF2EA900EDADC8 /* Debug */,
+				3431ADC022DF2EA900EDADC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3431ADA422DF2EA600EDADC8 /* Project object */;
+}
